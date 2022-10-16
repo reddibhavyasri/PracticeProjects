@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'School.dbo.Class' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Class">
+    <Key>
+      <PropertyRef Name="ClassID" />
+      <PropertyRef Name="ClassName" />
+    </Key>
+    <Property Name="ClassID" Type="int" Nullable="false" />
+    <Property Name="ClassName" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'School.dbo.Student' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+      <PropertyRef Name="StudentName" />
+      <PropertyRef Name="StudentAddress" />
+      <PropertyRef Name="StudentEmail" />
+      <PropertyRef Name="StudentClass" />
+    </Key>
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="StudentName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="StudentAddress" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="StudentEmail" Type="varchar" MaxLength="75" Nullable="false" />
+    <Property Name="StudentClass" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'School.dbo.Subject' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+      <PropertyRef Name="SubjectName" />
+    </Key>
+    <Property Name="SubjectID" Type="int" Nullable="false" />
+    <Property Name="SubjectName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SchoolModelStoreContainer">
+    <EntitySet Name="Class" EntityType="Self.Class" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Class].[ClassID] AS [ClassID], 
+    [Class].[ClassName] AS [ClassName]
+    FROM [dbo].[Class] AS [Class]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Student" EntityType="Self.Student" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Student].[StudentID] AS [StudentID], 
+    [Student].[StudentName] AS [StudentName], 
+    [Student].[StudentAddress] AS [StudentAddress], 
+    [Student].[StudentEmail] AS [StudentEmail], 
+    [Student].[StudentClass] AS [StudentClass]
+    FROM [dbo].[Student] AS [Student]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Subject" EntityType="Self.Subject" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Subject].[SubjectID] AS [SubjectID], 
+    [Subject].[SubjectName] AS [SubjectName]
+    FROM [dbo].[Subject] AS [Subject]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

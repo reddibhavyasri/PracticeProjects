@@ -1,3 +1,8 @@
+
+
+https://github.com/reddibhavyasri/PracticeProjects.git
+
+
 use School
   insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (12,'Tom', '6a', 'Pileru', 'tom@email.com');
   insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (24,'Thomas', '6a', 'Panjab', 'thomas@email.com');

@@ -1,3 +1,6 @@
+https://github.com/reddibhavyasri/PracticeProjects.git
+
+
 1.Database Was created with name School.
 2.Tables with names Student,Class and Subject were created.
 3.Data was inserted into tables using quiries.
