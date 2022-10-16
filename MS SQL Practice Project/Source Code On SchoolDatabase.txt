@@ -1,0 +1,24 @@
+use School
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (12,'Tom', '6a', 'Pileru', 'tom@email.com');
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (24,'Thomas', '6a', 'Panjab', 'thomas@email.com');
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (34,'Manuel', '6a', 'Benglore', 'manuelm@email.com');
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (14,'Renu', '6a', 'Benglore', 'renu@email.com');
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) values (16,'Pavani', '4a', 'Pune', 'pavani@email.com');
+  insert into Student (StudentID,StudentName, StudentClass, StudentAddress, StudentEmail) Values(26, 'Mouni','2a','Delhi','mouni@gmail.com');
+  
+  select * from Student
+
+use School
+insert  into Class(ClassId, ClassName) values (2,'2a')
+insert  into Class(ClassId, ClassName) values (4,'4a')
+insert  into Class(ClassId, ClassName) values (6,'6a')
+select * from Class
+
+use School
+insert into Subject (SubjectID,SubjectName) values(1,'Maths')
+insert into Subject (SubjectID,SubjectName) values(2,'English')
+insert into Subject (SubjectID,SubjectName) values(3,'Social')
+insert into Subject (SubjectID,SubjectName) values(4,'Arts')
+
+select *from Subject
+

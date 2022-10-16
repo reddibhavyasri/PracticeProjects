@@ -1,0 +1,4 @@
+1.Database Was created with name School.
+2.Tables with names Student,Class and Subject were created.
+3.Data was inserted into tables using quiries.
+4.Select from*table name query is used to show the table it the table consist of data or not.
