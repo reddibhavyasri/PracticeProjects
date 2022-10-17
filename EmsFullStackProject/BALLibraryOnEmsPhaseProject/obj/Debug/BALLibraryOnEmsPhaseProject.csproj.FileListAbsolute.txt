@@ -1,0 +1,12 @@
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\BALLibraryOnEmsPhaseProject.dll.config
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\BALLibraryOnEmsPhaseProject.dll
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\BALLibraryOnEmsPhaseProject.pdb
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\EntityFramework.dll
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\EntityFramework.SqlServer.dll
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\EntityFramework.xml
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\bin\Debug\EntityFramework.SqlServer.xml
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\obj\Debug\BALLibraryOnEmsPhaseProject.csproj.AssemblyReference.cache
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\obj\Debug\BALLibraryOnEmsPhaseProject.csproj.CoreCompileInputs.cache
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\obj\Debug\BALLibraryOnEmsPhaseProject.csproj.CopyComplete
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\obj\Debug\BALLibraryOnEmsPhaseProject.dll
+F:\practice\Training recordings\BALLibraryOnEmsPhaseProject\obj\Debug\BALLibraryOnEmsPhaseProject.pdb

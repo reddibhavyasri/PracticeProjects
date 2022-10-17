@@ -1,0 +1,15 @@
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\obj\Debug\DALLibraryOnPhaseEndProject.csproj.AssemblyReference.cache
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\obj\Debug\DALLibraryOnPhaseEndProject.csproj.CoreCompileInputs.cache
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\DALLibraryOnPhaseEndProject.dll.config
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\DALLibraryOnPhaseEndProject.dll
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\DALLibraryOnPhaseEndProject.pdb
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\BALLibraryOnEmsPhaseProject.dll
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\EntityFramework.dll
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\EntityFramework.SqlServer.dll
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\BALLibraryOnEmsPhaseProject.pdb
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\BALLibraryOnEmsPhaseProject.dll.config
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\EntityFramework.xml
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\bin\Debug\EntityFramework.SqlServer.xml
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\obj\Debug\DALLibraryOnPhaseEndProject.csproj.CopyComplete
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\obj\Debug\DALLibraryOnPhaseEndProject.dll
+F:\practice\Training recordings\DALLibraryOnPhaseEndProject\obj\Debug\DALLibraryOnPhaseEndProject.pdb
